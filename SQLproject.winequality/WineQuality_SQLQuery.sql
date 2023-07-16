@@ -4,7 +4,7 @@ SELECT TABLE_NAME
 FROM INFORMATION_SCHEMA.TABLES
 WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = 'dbo';
 
--- Show the columns of a specific table (e.g., winequality-red)
+-- Show the columns of a specific table (e.g., winequality_red)
 SELECT COLUMN_NAME, DATA_TYPE
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'winequality_red';
