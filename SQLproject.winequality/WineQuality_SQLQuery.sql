@@ -65,8 +65,3 @@ WHERE alcohol = 8;
 -- Delete all white wines with residual sugar less than 1
 DELETE FROM winequality_white
 WHERE residual_sugar < 1;
-
-
-
-
-
